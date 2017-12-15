@@ -8,11 +8,12 @@ demonstrate how to do regression from scratch in python with numpy for PGH Data 
 
 ## setup 
 
-run the following in terminal
+the following step isn't necessary, but is useful for managing / switching kernels when launching
+jupyter notebooks from the default environment.
 
 `conda install nb_conda -q --yes`
 
-followed by 
+The following will set up the environment containing the requirements for the notebook.
 
 `conda create --name=pgh_data_science python=3.5 --file=requirements.txt --yes`
 
